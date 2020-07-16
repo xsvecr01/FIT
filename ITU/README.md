@@ -1,6 +1,6 @@
 # ITU
 
-### CVICENI
+### CVIČENÍ
 
 **cv1 WinAPI** - 5/5
 
