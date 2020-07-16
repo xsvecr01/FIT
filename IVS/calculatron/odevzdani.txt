@@ -1,0 +1,4 @@
+Datum 	24.4. 2019
+Èas	00:59
+Zpùsob odevzdání
+Pomocí winSCP na ivs.fit.vutbr.cz do složky /mnt/data/ivs-proj2-2018-19/odevzdane/xsvecr01

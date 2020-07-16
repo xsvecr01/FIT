@@ -1,0 +1,4 @@
+﻿xvasic30 100 (základ GUI, profiling)
+xdosta51 150 (instalator, makefile, testy, uzivatelska dokumentace)
+xsvecr01 150 (GUI, matematicka knihovna, implementace, mockup)
+xcupak07 0 ()
