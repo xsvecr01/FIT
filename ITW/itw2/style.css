@@ -1,0 +1,326 @@
+/*********************/
+/*       TAGY        */
+/*********************/
+body, html{
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    color: #616161;
+    scroll-behavior: smooth;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    background-color: #f7f7f7;
+    background-image: linear-gradient(to right, #e7e7e7 , #f7f7f7);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+   }
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 50px;
+    letter-spacing: 0.1em;
+    color: #303030;
+    word-spacing: 0.5em;
+    margin-bottom: 0;
+}
+h2{
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 32px;
+    color: #851104;
+}
+h3{
+    margin-bottom: 0;
+    color: #303030;
+}
+
+/*********************/
+/*        ID         */
+/*********************/
+/*navigace*/
+#navbar{
+    min-width: 200px;
+    max-width: 200px;
+}
+#navlist{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    width: 90%;
+}
+#navlist li{
+    margin-top: 30px
+}
+
+/*hlavni okno s obsahem*/
+#content{
+    margin-left: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 70rem;
+}
+/*kontaktni udaje*/
+#contact{
+    text-decoration: none;
+    color: #515151;
+    text-transform: uppercase;
+}
+#contact a{
+    color: black;
+}
+#contact a:hover{
+    text-decoration: underline;
+    color: #851104;
+}
+
+/* sekce skills*/
+#skills h3{
+    margin-bottom: 40px;
+}
+
+/* sekce interests */
+#interest h3{
+    margin-top: 0;
+}
+
+#gallery{
+    text-align: center;
+}
+#gallery img{
+    width: 250px;
+    margin: 10px;
+}
+
+/*sekce projects*/
+#projects a{
+    color: black;
+}
+#projects a:hover{
+    color: #851104;
+}
+#projects span{
+    color: #851104;
+    font-size: 14px;
+}
+#projects ul{
+    padding-left: 0;
+    text-align: center;
+}
+#projects li{
+    list-style: none;
+    border-width: 1px;
+    font-weight: bold;
+    border-color: black;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    margin-right: 10px;
+    margin-top: 8px;
+    min-width: 80px;
+}
+
+#projnav{
+    margin-bottom: 40px;
+}
+
+/*objekty pro mobil*/
+#mob-nav{
+    display: none;
+}
+#mob-img{
+    display: none;
+}
+
+/*********************/
+/*      TRIDY        */
+/*********************/
+
+.reddish{
+    color: #851104;
+}
+.margtop{
+    margin-top: 40px;
+}
+.margtop20{
+    margin-top: 20px;
+}
+
+.center{
+    text-align: center;
+}
+
+.secson{
+    min-height: 85vh;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    border-bottom-color: #616161;
+    border-bottom-style: solid;
+    border-width: 1px;
+}
+
+.flexor{
+    display: flex;
+    flex-wrap: wrap;
+}
+.profileimg{
+    border-radius: 50%;
+    border-width: 5px;
+    border-color: #303030;
+    border-style: solid;
+    width: 80%;
+}
+
+/******************/
+/*    navigace    */
+.sidenav{
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.sidenav a{
+    color: #818181;
+    font-size: large;
+    font-weight: bold;
+}
+.sidenav a:hover{
+    color: #f1f1f1;
+}
+.sidenav a:focus{
+    color: #f1f1f1;
+}
+
+/*sekce education*/
+.school{
+    width: 80%;
+    margin-right: 5%;
+}
+.year{
+    min-width: 100px;
+    width: 15%;
+}
+
+/*sekce skills*/
+.icon{
+    height: 60px;
+}
+.prglang{
+    min-width: 86px;
+    margin-bottom: 20px;
+}
+.lang{
+    width: 130px;
+}
+.ride{
+    width: 150px;
+}
+
+/*sekce interests*/
+.intdiv{
+    width: 70%;
+}
+.intdivimg{
+    width: 30%;
+    text-align: center;
+}
+.intimg{
+    height: 150px;
+}
+
+/*sekce projects*/
+.projsec{
+    min-width: 20vh;
+    margin-bottom: 20vh;
+}
+
+/*********************/
+/*      MOBILE       */
+/*********************/
+/* Styly pro mensi obrazovky a mobily*/
+@media only screen and (max-width: 850px) {
+    #main{
+        display: block !important;
+    }
+    #content{
+        margin-left: 0;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    #nav_main{
+        display: none;
+    }
+    #gallery{
+        text-align: center;
+        display: block !important;
+    }
+    .year p{
+        margin-top: 0;
+    }
+
+    .profileimg{
+        width: 100px;
+    }
+
+    /*mobilni navigace*/
+    #mob-nav{
+        max-height: 75px;
+        min-height: 45px;
+        font-size: large;
+        background-color: #111;
+        display: block;
+        position: fixed;
+        width: 100%;
+    }
+    #mob-navlist{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom: 0;
+    }
+    #mob-navlist li{
+        list-style: none;
+        margin-right: 10px;
+        padding-right: 10px;
+        margin-bottom: 10px;
+        border-right-style: solid;
+        border-color: #818181;
+    }
+    .last{
+        border-right-style: none !important;
+    }
+    #mob-navlist a{
+        color: #818181;
+        font-weight: bold;
+    }
+    #mob-navlist a:active{
+        color: #f1f1f1;
+    }
+
+    /****************/
+    #mob-img{
+        display: block;
+        padding-top: 20px;
+        margin-bottom: -40px;
+    }
+
+    .projsec h3{
+        padding-top: 80px;
+        margin-top: -80px;
+    }
+
+}
