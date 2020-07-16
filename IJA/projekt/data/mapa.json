@@ -1,0 +1,47 @@
+{
+	"Streets":[
+	{"id":"ulice0", "coords": [[20,20], [100,20]]},
+	{"id":"ulice1", "coords": [[20,20], [20,60], [40,100]]},
+	{"id":"ulice2", "coords": [[20,20], [80,100]]},
+	{"id":"ulice3", "coords": [[40,100], [80,100]]},
+	{"id":"ulice4", "coords": [[80,140], [80,220], [160,180]]},
+	{"id":"ulice5", "coords": [[80,140], [160,140], [160,180]]},
+	{"id":"ulice6", "coords": [[100,20], [100,60], [120,80]]},
+	{"id":"ulice7", "coords": [[160,120], [220,100]]},
+	{"id":"ulice8", "coords": [[160,60], [220,100]]},
+	{"id":"ulice9", "coords": [[40,100], [80,140]]},
+	{"id":"ulice10", "coords": [[80,100], [80,140]]},
+	{"id":"ulice11", "coords": [[80,100], [120,80]]},
+	{"id":"ulice12", "coords": [[120,80], [160,60]]},
+	{"id":"ulice13", "coords": [[160,180], [240,140]]},
+	{"id":"ulice14", "coords": [[240,140], [260,100]]},
+	{"id":"ulice15", "coords": [[260,100], [220,60]]},
+	{"id":"ulice16", "coords": [[220,60], [160,60]]},
+	{"id":"ulice17", "coords": [[120,80], [160,120]]},
+	{"id":"ulice18", "coords": [[160,120], [240,140]]},
+	{"id":"ulice19", "coords": [[220,100], [220,60]]},
+	{"id":"ulice20", "coords": [[220,100], [260,100]]},
+	{"id":"ulice21", "coords": [[100,20], [200,20], [200,40], [160,60]]}
+
+	],
+	"Stops":[
+	{"id":"zastavka01", "coords":[40,20]},
+	{"id":"zastavka02", "coords":[150,20]},
+	{"id":"zastavka04", "coords":[30,80]},
+	{"id":"zastavka05", "coords":[50,60]},
+	{"id":"zastavka06", "coords":[80,120]},
+	{"id":"zastavka07", "coords":[100,40]},
+	{"id":"zastavka08", "coords":[140,100]},
+	{"id":"zastavka09", "coords":[200,130]},
+	{"id":"zastavka10", "coords":[100,90]},
+	{"id":"zastavka11", "coords":[140,70]},
+	{"id":"zastavka12", "coords":[100,140]},
+	{"id":"zastavka14", "coords":[190,80]},
+	{"id":"zastavka15", "coords":[240,100]},
+	{"id":"zastavka16", "coords":[190,110]},
+	{"id":"zastavka17", "coords":[80,220]},
+	{"id":"zastavka19", "coords":[200,160]},
+	{"id":"zastavka20", "coords":[250,120]},
+	{"id":"zastavka21", "coords":[200,60]}
+	]
+}

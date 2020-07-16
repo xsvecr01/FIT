@@ -1,0 +1,46 @@
+{
+	"Lines":[
+    	{
+        "id":"Linka Vaclavak",
+        "route":[["ulice0", "zastavka01", "12", "00"],
+            	["ulice21", "zastavka02", "12", "02"],
+            	["ulice16", "zastavka21", "12", "05"],
+            	["ulice15", "0", "99", "99"],
+            	["ulice14", "zastavka20", "12", "08"],
+            	["ulice13", "zastavka19", "12", "10"],
+            	["ulice4", "zastavka17", "12", "12"],
+            	["ulice9", "0", "99", "99"],
+            	["ulice1", "zastavka04", "12", "16"]]},
+	{
+	"id":"Linka Karlak",
+        "route":[
+            	["ulice20", "zastavka15", "12", "00"],
+            	["ulice14", "zastavka20", "12", "01"],
+				["ulice13", "zastavka19", "12", "02"],
+				["ulice5", "zastavka12", "12", "05"],
+            	["ulice10", "zastavka06", "12", "07"],
+            	["ulice2", "zastavka05", "12", "09"],
+            	["ulice0", "zastavka01", "12", "11"],
+            	["ulice6", "zastavka07", "12", "13"],
+            	["ulice12", "zastavka11", "12", "15"],
+            	["ulice8", "zastavka14", "12", "16"]]},
+	{
+	"id":"Linka Staromak",
+        "route":[["ulice18", "zastavka09", "12", "00"],
+            	["ulice17", "zastavka08", "12", "01"],
+            	["ulice12", "zastavka11", "12", "03"],
+            	["ulice16", "zastavka21", "12", "04"],
+            	["ulice15", "0", "99", "99"],
+            	["ulice14", "zastavka20", "12", "07"]]},
+	{
+	"id":"Linka Nuselak",
+		"route":[["ulice10", "zastavka06", "12", "00"],
+				["ulice4", "zastavka17", "12", "02"],
+				["ulice13", "zastavka19", "12", "05"],
+				["ulice14", "zastavka20", "12", "06"],
+				["ulice20", "zastavka15", "12", "08"],
+				["ulice7", "zastavka16", "12", "09"],
+				["ulice17", "zastavka08", "12", "11"],
+				["ulice11", "zastavka10", "12", "12"]]}
+	]
+}
