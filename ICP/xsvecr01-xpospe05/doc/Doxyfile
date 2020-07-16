@@ -1,0 +1,16 @@
+# autor: xpospe05
+# autor: xsvecr01
+PROJECT_NAME = "ICP xpospe05-xsvecr01"
+INPUT = ./src/
+FILE_PATTERNS = */src/*.cpp \
+		*/src/*.h
+EXCLUDE = ./src/moc_predefs.h \
+	  ./src/ui_mainwindow.h \
+	  ./src/moc_mainwindow.cpp
+OUTPUT_DIRECTORY = ./doc
+GENERATE_HTML = YES
+SOURCE_BROWSER = YES
+HTML_OUTPUT = html/
+HTML_FILE_EXTENSION = .html
+OUTPUT_LANGUAGE = czech
+GENERATE_LATEX = NO
