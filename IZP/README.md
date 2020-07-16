@@ -1,5 +1,4 @@
 # IZP
-**Autor:** Radek Švec (xsvecr01@stud.fit.vutbr.cz)
 
 **PROJ1** - PRÁCE S TEXTEM 4,4/5
 
